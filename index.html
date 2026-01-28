@@ -163,7 +163,7 @@ ${MBTI_POLICIES[state.mbti]}
     const loading = chat.lastChild;
 
     try {
-      const res = await fetch("YOUR_WORKER_ENDPOINT/chat", {
+      const res = await fetch("https://ai.taisei-study928.workers.dev/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
